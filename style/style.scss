@@ -1,0 +1,359 @@
+$monserrat: 'Montserrat', sans-serif;
+$merriweather: 'Merriweather', serif;
+$raleway: 'Raleway', sans-serif;
+
+
+*, html,body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.title-section-1{
+    margin-top: 35px;
+    margin-bottom: 125px;
+    &-iner-1{
+        font-family: $monserrat;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+    }
+    &-iner-2{
+        font-family: $merriweather;
+        font-size: 17px;
+        text-align: center;
+        color: #616161;
+        margin-top: 20px;
+    }
+}
+.title-section-2{
+    margin-top: 240px;
+    margin-bottom: 125px;
+    &-iner-1{
+        font-family: $monserrat;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+    }
+    &-iner-2{
+        font-family: $merriweather;
+        font-size: 17px;
+        text-align: center;
+        color: #616161;
+        margin-top: 20px;
+        
+    }    
+}
+.title-section-3{
+    margin-top: 125px;
+    margin-bottom: 125px;
+    &-iner-1{
+        font-family: $monserrat;
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+    }
+    &-iner-2{
+        font-family: $merriweather;
+        font-size: 17px;
+        text-align: center;
+        color: #616161;
+        margin-top: 20px;
+    }
+}    
+.conteiner{
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    gap: 10px;
+    .section-1{
+        &-item-1{
+            // width: 360px;
+            height: 360px;
+            background: url(../img/section-1/banner3.png) no-repeat center;
+        }
+        &-item-2{
+            // width: 360px;
+            height: 360px;
+            background: #49c4b0 url(../img/section-1/5.png) no-repeat;
+        }
+        &-item-3{
+            // width: 360px;
+            height: 360px;
+            background: #eeadb1 url(../img/section-1/6.png) no-repeat;
+        }
+        &-item-4{
+            // width: 360px;
+            height: 360px;
+            background: #febcd7 url(../img/section-1/work4.png) no-repeat ;
+        }
+        &-item-5{
+            // width: 360px;
+            height: 360px;
+            // background: linear-gradient (to bottom, #af3462,#d95183);
+            background:  url(../img/section-1/9.png)  ;
+        }
+        &-item-6{
+            // width: 360px;
+            height: 360px;
+            background: #ececec url(../img/section-1/home_dietitian_sectionbg_1.png) no-repeat center;
+        }
+    }
+    
+    .section-3{
+        &-item-1{
+            height: 440px;
+            background: url(../img/section-3/team_3.png) no-repeat center;
+        }
+        &-item-2{
+            height: 440px;
+            background: url(../img/section-3/team_4.png) no-repeat;
+            &-iner{
+                width: 335px;
+                height: 240px;
+                background: #6ff5eb;
+                margin-top: 185px;
+                margin-left: 18px;
+                .iner-1{
+                    margin-left: 40px;
+                }
+                img{
+                    margin-left: 20px;
+                    transform: translateY(-50%);
+                }
+                .title{
+                    display: flex;
+                    .name{
+                        font-family: $merriweather;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #000;
+
+                    }
+                    .profession{
+                        font-family: $merriweather;
+                        font-size: 15px;
+                        font-style: italic;
+                        color: #767776;
+                        margin-left: 5px;
+                        margin-top: 7px;
+                    }
+                   
+                }
+                .text{
+                    font-family: $raleway;
+                    font-size: 16px;
+                    color: #000;
+                    margin-top: 20px;
+                }
+                li{
+                    display: inline-block;
+                    margin-right: 5px;
+                    margin-top: 40px;
+                    cursor: pointer;
+                    
+                }
+            }
+        }
+        &-item-3{
+            height: 440px;
+            background: url(../img/section-3/team_1.png) no-repeat;
+           
+        }
+        &-item-4{
+            height: 440px;
+            background: url(../img/section-3/team_2.png) no-repeat;
+        }
+        &-item-5{
+            height: 440px;
+            background: url(../img/section-3/3.png) no-repeat;
+        }
+        &-item-6{
+            height: 440px;
+            background: url(../img/section-3/team_3\.png) no-repeat;
+    
+        }
+    }
+}
+.section-2{
+    max-width: 1300px;
+    margin: auto;
+    
+    &-iner-1{
+        display: grid;
+        grid-template-columns: 675px 475px;
+        gap: 10px;
+        &-item-1{
+            height: 380px;
+            background: url(../img/section-2/blog-3.png) no-repeat center;
+            &-text{
+                background: url(../img/Rectangle\ 44.png);
+                height: 100%;
+                padding-top: 60px;
+                padding-left: 70px;
+                .text-title{
+                    font-family: $merriweather;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+                .text-item-1{
+                    padding-right: 125px;
+                    font-family: $raleway;
+                    font-size: 16px;
+                    color: #fff;
+                }
+                .section-2-iner-1-item-1-text a{
+                    color: #fff;
+                    text-decoration: none;
+                  }
+                .section-2-iner-1-item-1-text a::after {
+                    content: '\2192';
+                    margin-left: 10px;
+                }
+                .section-2-iner-1-item-1:hover .section-2-iner-1-item-1-text{
+                    transition-delay: 0.1s;
+                    background: #71f5e9;
+                }
+            }
+        }
+        .section-2-iner-1-item-1:hover .section-2-iner-1-item-2-text{
+            transition-delay: 0.1s;
+            background: #71f5e9;
+        } 
+        &-item-2{
+            height: 380px;
+            background: url(../img/section-2/img-9.png) no-repeat center;
+            &-text{
+                background: url(../img/Rectangle\ 44.png);
+                height: 100%;
+                padding-top: 60px;
+                padding-left: 70px;
+                .text-title{
+                    font-family: $merriweather;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+                .text-item-1{
+                    padding-right: 125px;
+                    font-family: $raleway;
+                    font-size: 16px;
+                    color: #fff;
+                }
+                .section-2-iner-1-item-2:hover .section-2-iner-1-item-2-text{
+                    transition-delay: 0.1s;
+                    background: #71f5e9;
+                } 
+                .section-2-iner-1-item-2-text a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+                .section-2-iner-1-item-2-text a::after {
+                    content: '\2192';
+                    margin-left: 10px;
+                }
+            }
+
+        }
+        
+        &-item-3{
+            height: 380px;
+            background: rgb(230, 228, 228) url(../img/section-2/griego3_1x.png) no-repeat center;
+            &-text{
+                background: url(../img/Rectangle\ 44.png);
+                height: 100%;
+                padding-top: 60px;
+                padding-left: 70px;
+                .text-title{
+                    font-family: $merriweather;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+                .text-item-3{
+                    padding-right: 125px;
+                    font-family: $raleway;
+                    font-size: 16px;
+                    color: #fff;
+                }
+                .section-2-iner-1-item-3:hover .section-2-iner-1-item-3-text{
+                    transition-delay: 0.1s;
+                    background: #71f5e9;
+                } 
+                .section-2-iner-1-item-3-text a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+                .section-2-iner-1-item-3-text a::after {
+                    content: '\2192';
+                    margin-left: 10px;
+                }
+            }
+        }
+        &-item-4{
+            height: 380px;
+            background: url(../img/section-2/careers-00.png) no-repeat center;
+            &-text{
+                background: url(../img/Rectangle\ 44.png);
+                height: 100%;
+                padding-top: 60px;
+                padding-left: 70px;
+                .text-title{
+                    font-family: $merriweather;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+                .text-item-4{
+                    padding-right: 125px;
+                    font-family: $raleway;
+                    font-size: 16px;
+                    color: #fff;
+                }
+                .section-2-iner-1-item-4:hover .section-2-iner-1-item-4-text{
+                    transition-delay: 0.1s;
+                    background: #71f5e9;
+                } 
+                .section-2-iner-1-item-4-text a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+                .section-2-iner-1-item-4-text a::after {
+                    content: '\2192';
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    &-iner-2{
+        display: grid;
+        grid-template-columns: 475px 675px;
+        gap: 10px;
+        margin-top: 10px;
+        &-item-1{
+            height: 380px;
+            background: url(../img/section-2/griego4_1x.png) no-repeat center;
+        }
+        &-item-2{
+            height: 380px;
+            background: url(../img/section-2/blog-3.png) no-repeat center;
+        }
+    }
+    
+
+}
+
+
